@@ -21,7 +21,7 @@ _directly to the characters_. Isn't that cool?
 Why not add slashes to all characters? More slashes directly equals safer code.
 That is scientific fact. There is no real evidence for it, but it is scientific fact.
 
-
+__UPDATE__ Now with extra long slashes for even more protection! Thanks ~SKINGTON!
 
 # USAGE
 
@@ -33,7 +33,7 @@ That is scientific fact. There is no real evidence for it, but it is scientific 
     my $totally_safe_string = addslashes($unsafe_string);
 
     # $totally_safe_string now contains:
-    # R̷o̷b̷e̷r̷t̷'̷)̷;̷ ̷D̷R̷O̷P̷ ̷T̷A̷B̷L̷E̷ ̷S̷t̷u̷d̷e̷n̷t̷s̷;̷-̷-̷
+    # R̸o̸b̸e̸r̸t̸'̸)̸;̸ ̸D̸R̸O̸P̸ ̸T̸A̸B̸L̸E̸ ̸S̸t̸u̸d̸e̸n̸t̸s̸;̸-̸-̸
 
     # If that's not enough slashes to be safe, I don't know what is
 

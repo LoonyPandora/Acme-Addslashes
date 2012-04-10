@@ -4,6 +4,8 @@ use utf8;
 
 # ABSTRACT: Perl twist on the most useful PHP function ever - addslashes
 
+=encoding utf-8
+
 =head1 NAME
 
 Acme::Addslashes - Perl twist on the most useful PHP function ever - addslashes

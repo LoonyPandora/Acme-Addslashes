@@ -87,7 +87,8 @@ sub addslashes {
     
     # Add slashes to every character thanks to unicode.
     # This is complex magic -- JAITKEN
-    my $safe_string = join("\N{U+0337}", @unsafe_array) . "\N{U+0337}";
+    # I think these slashes could be longer -- SKINGTON
+    my $safe_string = join("\N{U+0338}", @unsafe_array) . "\N{U+0337}";
 
     # Return the safe string using the return function of PERL -- JAITKEN
     return encode("utf8", $safe_string);

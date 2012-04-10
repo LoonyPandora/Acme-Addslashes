@@ -1,3 +1,13 @@
+0.1.2   2012-04-11
+
+    [ FEATURE ]      
+    * Now with extra long slashes, for even more protection!
+      (Sam Kington)
+    
+    [ TESTS ]
+    * Added additional tests, so more things get slashed up
+
+
 0.1.1   2012-04-10
 
     [ DOCUMENTATION ]

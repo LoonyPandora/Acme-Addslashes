@@ -1,5 +1,6 @@
 use Test::More tests => 4;
 
+use v5.12;
 use strict;
 use warnings;
 use utf8;

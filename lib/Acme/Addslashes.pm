@@ -50,7 +50,7 @@ B<UPDATE> Now with extra long slashes for even more protection! Thanks ~SKINGTON
 
 =cut
 
-
+use v5.12;
 use strict; # lolwut? strict??
 
 use Encode qw(encode);

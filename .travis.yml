@@ -6,6 +6,6 @@ perl:
     - "5.12"
 
 install:
-    - cpanm Dist::Zilla --quiet --notest --skip-satisfied
-    - dzil authordeps | cpanm --quiet --notest --skip-satisfied
-    - dzil listdeps | cpanm --verbose
+    - cpanm Dist::Zilla --quiet --notest
+    - dzil authordeps | xargs cpanm --quiet --notest
+    - dzil listdeps | xargs cpanm --quiet --notest

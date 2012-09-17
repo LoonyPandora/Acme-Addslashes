@@ -59,7 +59,7 @@ use parent "Exporter";
 
 our @EXPORT_OK = qw(addslashes);
 
-our $VERSION = '0.1.2';
+our $VERSION = '0.1.3';
 
 =head1 FUNCTIONS
 

@@ -9,3 +9,6 @@ install:
     - cpanm Dist::Zilla --quiet --notest
     - dzil authordeps | xargs cpanm --quiet --notest
     - dzil listdeps | xargs cpanm --quiet --notest
+
+script:
+    - dzil smoke --release --author
